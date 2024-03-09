@@ -1,3 +1,6 @@
+use voxelthingy::run;
+
 fn main() {
-    println!("Hello, world!");
+    tracing_subscriber::fmt::init();
+    run();
 }
